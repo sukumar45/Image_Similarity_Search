@@ -1,11 +1,8 @@
 # Image Similarity Search
 
-![Alt text](App_image1.png)
+Find similar images by giving a reference image.
 
 ![Example Image](App_image1.png)
-
-
-Find similar images by giving a reference image.
 
 This project implements an image similarity search application using a FastAPI backend and a Streamlit frontend. The application allows users to upload a reference image and a directory of other images, and it retrieves the most similar images based on a specified similarity threshold.
 
@@ -100,11 +97,18 @@ streamlit run streamlit_client.py
 
 ## Example Usage
 
+![Example Image](App_image2.png)
+
 1. Upload a reference image.
 2. Enter the directory path containing a collection of animal images. (Set directory path to `/app/test` when using docker-compose to use the included test directory)
 3. Set the similarity score threshold to 0.7.
 4. The application will display the most similar images from the provided directory.
+
+![Example Image](App_image3.png)
+
 5. The bar chart will show the similarity scores and thumbnails of the retrieved images.
+
+![Example Image](App_image4.png)
 
 ## Project Structure
 
