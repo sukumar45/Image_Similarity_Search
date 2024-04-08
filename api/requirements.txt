@@ -1,0 +1,7 @@
+anyio==4.2.0
+fastapi==0.110.1
+Pillow==10.2.0
+python-multipart==0.0.9
+torch==2.2.0
+torchvision==0.17.0
+uvicorn==0.29.0
