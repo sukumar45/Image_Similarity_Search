@@ -110,6 +110,11 @@ streamlit run streamlit_client.py
 
 ![Example Image](App_image4.png)
 
+## Next steps
+
+1. Add a prompt box to take user prompts to filter the images.
+
+
 ## Project Structure
 
 - `api/`: Contains the FastAPI backend code and model weights.
