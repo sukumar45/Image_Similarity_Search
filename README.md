@@ -1,5 +1,10 @@
 # Image Similarity Search
 
+![Alt text](App_image1.png)
+
+![Example Image](App_image1.png)
+
+
 Find similar images by giving a reference image.
 
 This project implements an image similarity search application using a FastAPI backend and a Streamlit frontend. The application allows users to upload a reference image and a directory of other images, and it retrieves the most similar images based on a specified similarity threshold.
