@@ -37,7 +37,7 @@ docker pull sukumar2112/image_similarity_search:client
 ```
 docker-compose up
 ```
-6. Open a web browser and go to `http://localhost:8501` to access the Streamlit application.
+6. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501) to access the Streamlit application.
 
 ### Manual Installation
 
@@ -59,10 +59,6 @@ pip install -r requirements.txt
 cd ../client
 pip install -r requirements.txt
 ```
-5. Download the pre-trained ResNet50 model weights:
-
-- Download the `resnet50-11ad3fa6.pth` file from [here](https://download.pytorch.org/models/resnet50-11ad3fa6.pth).
-- Place the downloaded file in the `api` directory.
 
 ## Usage
 
@@ -72,7 +68,7 @@ pip install -r requirements.txt
 ```
 docker-compose up
 ```
-2. Open a web browser and go to `http://localhost:8501` to access the Streamlit application.
+2. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501)  to access the Streamlit application.
 
 ### Manual Usage
 
@@ -87,7 +83,7 @@ uvicorn main:app --reload
 cd client
 streamlit run streamlit_client.py
 ```
-3. Open a web browser and go to `http://localhost:8501` to access the Streamlit application.
+3. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501) to access the Streamlit application.
 
 4. Upload a reference image using the file uploader.
 5. Enter the directory path containing the other images you want to compare.
