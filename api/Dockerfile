@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py model.py ./
 COPY resnet50-11ad3fa6.pth ./
-COPY test /app/test
 
 EXPOSE 8000
 
