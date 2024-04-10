@@ -22,11 +22,11 @@ This project implements an image similarity search application using a FastAPI b
 
 2. Clone the repository:
 ```
-git clone https://github.com/sukumar45/image-similarity-search.git
+git clone https://github.com/sukumar45/image_similarity_search.git
 ```
 3. Navigate to the project directory:
 ```
-cd image-similarity-search
+cd image_similarity_search
 ```
 4. Pull the Docker images for the API and client:
 ```
@@ -43,11 +43,11 @@ docker-compose up
 
 1. Clone the repository:
 ```
-git clone https://github.com/sukumar45/image-similarity-search.git
+git clone https://github.com/sukumar45/image_similarity_search.git
 ```
 2. Navigate to the project directory:
 ```
-cd image-similarity-search
+cd image_similarity_search
 ```
 3. Install the required dependencies for the FastAPI backend:
 ```
