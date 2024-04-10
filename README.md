@@ -37,7 +37,7 @@ docker pull sukumar2112/image_similarity_search:client
 ```
 docker-compose up
 ```
-6. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501){:target="_blank"} to access the Streamlit application.
+6. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501{:target="_blank"}) to access the Streamlit application.
 
 ### Manual Installation
 
