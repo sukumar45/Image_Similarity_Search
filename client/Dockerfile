@@ -10,6 +10,4 @@ COPY streamlit_client.py .
 
 EXPOSE 8501
 
-CMD ["python3", "simple_client1.py"]
-
-#CMD ["streamlit", "run", "streamlit_client.py"]
+CMD ["streamlit", "run", "streamlit_client.py"]
