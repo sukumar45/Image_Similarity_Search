@@ -37,7 +37,7 @@ docker pull sukumar2112/image_similarity_search:client
 ```
 docker-compose up
 ```
-6. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501) to access the Streamlit application.
+6. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501){:target="_blank"} to access the Streamlit application.
 
 ### Manual Installation
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ```
 docker-compose up
 ```
-2. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501)  to access the Streamlit application.
+2. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501){:target="_blank"}  to access the Streamlit application.
 
 ### Manual Usage
 
@@ -83,7 +83,7 @@ uvicorn main:app --reload
 cd client
 streamlit run streamlit_client.py
 ```
-3. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501) to access the Streamlit application.
+3. Open a web browser and go to [http://localhost:8501](http://127.0.0.1:8501){:target="_blank"} to access the Streamlit application.
 
 4. Upload a reference image using the file uploader.
 5. Enter the directory path containing the other images you want to compare.
